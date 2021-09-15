@@ -1,0 +1,115 @@
+[[package]]
+name = "configparser"
+version = "4.0.2"
+description = "Updated configparser from Python 3.7 for Python 2.6+."
+category = "main"
+optional = false
+python-versions = ">=2.6"
+
+[package.extras]
+docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
+testing = ["pytest (>=3.5,!=3.7.3)", "pytest-checkdocs (>=1.2)", "pytest-flake8", "pytest-black-multipy"]
+
+[[package]]
+name = "hexdump"
+version = "3.3"
+description = "dump binary data to hex format and restore from there"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
+name = "more-itertools"
+version = "5.0.0"
+description = "More routines for operating on iterables, beyond itertools"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+six = ">=1.0.0,<2.0.0"
+
+[[package]]
+name = "pyparsing"
+version = "2.4.7"
+description = "Python parsing module"
+category = "main"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[[package]]
+name = "python-evtx"
+version = "0.7.4"
+description = "Pure Python parser for recent Windows event log files (.evtx)."
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+configparser = "4.0.2"
+hexdump = "3.3"
+more-itertools = "5.0.0"
+pyparsing = "2.4.7"
+six = "*"
+zipp = "1.0.0"
+
+[package.extras]
+test = ["pytest-cov (==2.11.1)", "pytest (==4.6.11)", "lxml (==4.6.3)"]
+
+[[package]]
+name = "six"
+version = "1.16.0"
+description = "Python 2 and 3 compatibility utilities"
+category = "main"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+
+[[package]]
+name = "zipp"
+version = "1.0.0"
+description = "Backport of pathlib-compatible object wrapper for zip files"
+category = "main"
+optional = false
+python-versions = ">=2.7"
+
+[package.dependencies]
+more-itertools = "*"
+
+[package.extras]
+docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
+testing = ["pathlib2", "contextlib2", "unittest2"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = ">=3.8,<3.11"
+content-hash = "8345a865a33dc692b3b1dc56f681e5b43258143e055a5a19d5b1cda5d4b04f40"
+
+[metadata.files]
+configparser = [
+    {file = "configparser-4.0.2-py2.py3-none-any.whl", hash = "sha256:254c1d9c79f60c45dfde850850883d5aaa7f19a23f13561243a050d5a7c3fe4c"},
+    {file = "configparser-4.0.2.tar.gz", hash = "sha256:c7d282687a5308319bf3d2e7706e575c635b0a470342641c93bea0ea3b5331df"},
+]
+hexdump = [
+    {file = "hexdump-3.3.zip", hash = "sha256:d781a43b0c16ace3f9366aade73e8ad3a7bd5137d58f0b45ab2d3f54876f20db"},
+]
+more-itertools = [
+    {file = "more-itertools-5.0.0.tar.gz", hash = "sha256:38a936c0a6d98a38bcc2d03fdaaedaba9f412879461dd2ceff8d37564d6522e4"},
+    {file = "more_itertools-5.0.0-py2-none-any.whl", hash = "sha256:c0a5785b1109a6bd7fac76d6837fd1feca158e54e521ccd2ae8bfe393cc9d4fc"},
+    {file = "more_itertools-5.0.0-py3-none-any.whl", hash = "sha256:fe7a7cae1ccb57d33952113ff4fa1bc5f879963600ed74918f1236e212ee50b9"},
+]
+pyparsing = [
+    {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
+    {file = "pyparsing-2.4.7.tar.gz", hash = "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"},
+]
+python-evtx = [
+    {file = "python-evtx-0.7.4.tar.gz", hash = "sha256:693d441a2d9744c5d8d502f2bdeee468e087ea362ac8c8934b4187fb75e9ec14"},
+    {file = "python_evtx-0.7.4-py3-none-any.whl", hash = "sha256:60ed71185750e9d64830b3bead48ad543242a6287781368e6bc11a32ef49ac46"},
+]
+six = [
+    {file = "six-1.16.0-py2.py3-none-any.whl", hash = "sha256:8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"},
+    {file = "six-1.16.0.tar.gz", hash = "sha256:1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926"},
+]
+zipp = [
+    {file = "zipp-1.0.0-py2.py3-none-any.whl", hash = "sha256:8dda78f06bd1674bd8720df8a50bb47b6e1233c503a4eed8e7810686bde37656"},
+    {file = "zipp-1.0.0.tar.gz", hash = "sha256:d38fbe01bbf7a3593a32bc35a9c4453c32bc42b98c377f9bff7e9f8da157786c"},
+]

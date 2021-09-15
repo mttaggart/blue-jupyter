@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "blue-jupyter"
+version = "0.1.0"
+description = "Jupyter Notebooks for the Blue Team"
+authors = ["Michael Taggart <mtaggart@taggart-tech.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+python-evtx = "^0.7.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
