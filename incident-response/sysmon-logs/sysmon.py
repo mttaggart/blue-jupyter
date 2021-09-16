@@ -16,7 +16,7 @@ class SysmonEvent:
     def __init__(self, soup):
         self.soup = soup
         self.user_id = soup.security.attrs["userid"]
-        self.event_id = int(soup.eventid.text)
+        self.event_id = soup.eventid.text
         self.time_created = soup.timecreated.attrs["systemtime"]
         self.pid = SysmonEvent.extract_event_data(soup, "data[name='ProcessId']")
         self.image = SysmonEvent.extract_event_data(soup, "data[name='Image']")
