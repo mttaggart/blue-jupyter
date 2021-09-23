@@ -29,6 +29,7 @@ class ProcessCreate(SysmonEvent):
     """
     def __init__(self, soup):
         super().__init__(soup)
+        self.hashes = SysmonEvent.extract_event_data(soup, "data[name='Hashes']")
         self.command_line = SysmonEvent.extract_event_data(soup, "data[name='CommandLine']")
         self.parent_command_line = SysmonEvent.extract_event_data(soup, "data[name='ParentCommandLine']")
         self.parent_image = SysmonEvent.extract_event_data(soup, "data[name='ParentImage']")
