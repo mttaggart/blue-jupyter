@@ -10,6 +10,9 @@ python = ">=3.8,<3.11"
 python-evtx = "^0.7.4"
 beautifulsoup4 = "^4.10.0"
 lxml = "^4.6.3"
+ipywidgets = "^7.6.5"
+networkx = "^2.6.3"
+virustotal-api = "^1.1.11"
 
 [tool.poetry.dev-dependencies]
 
