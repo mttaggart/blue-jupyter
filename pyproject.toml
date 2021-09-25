@@ -13,6 +13,8 @@ lxml = "^4.6.3"
 ipywidgets = "^7.6.5"
 networkx = "^2.6.3"
 virustotal-api = "^1.1.11"
+stringsifter = "~=2.0"
+colorama = "^0.4.4"
 
 [tool.poetry.dev-dependencies]
 
