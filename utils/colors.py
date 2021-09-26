@@ -8,7 +8,7 @@ important = (Fore.CYAN + "[!]" + Fore.RESET + " ")
 printError = (Fore.RED + "[X]" + Fore.RESET + " ")
 
 # Confidence interval colors
-none = (Fore.GREEN + "[*]" + Fore.RESET + " ")
+none = (Fore.WHITE + "[*]" + Fore.RESET + " ")
 low = (Fore.CYAN + "[*]" + Fore.RESET + " ")
 med = (Fore.YELLOW + "[*]" + Fore.RESET + " ")
 high = (Fore.MAGENTA + "[*]" + Fore.RESET + " ")
