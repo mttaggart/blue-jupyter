@@ -1,5 +1,6 @@
 <h1 align="center">
-  <img src="./assets/img/B_Blue-Jupyter-03.png" alt="Blue-Jupyter Banner" />
+  
+  ![B_Blue-Jupyter-03](https://user-images.githubusercontent.com/57866415/134895071-5a8774e1-f3fc-49dd-9ca5-9130611fc2da.png)
 </h1>
 <div align="center">
 
