@@ -14,6 +14,34 @@
 
 This repo contains Jupyter Notebooks useful for several aspects of Blue Team work.
 
+## Installation
+
+### Linux
+You need Jupyter Notebooks! On linux, run:
+```
+$ pip3 install jupyter
+```
+Clone and enter the directory:
+```
+$ git clone https://github.com/mttaggart/blue-jupyter.git && cd blue-jupyter
+```
+If you don't have it already, install `poetry`:
+```
+$ pip3 install poetry
+```
+Install the dependencies with `poetry`:
+```
+$ poetry install
+```
+Then, go to the directory of the notebook you want to run and start the Jupyter server:
+```
+$ jupyter notebook
+```
+For developing notebooks, use the Jupyter `lab` command:
+```
+$ jupyter lab
+```
+
 <!--
 Links
 -->
