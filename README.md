@@ -19,7 +19,7 @@ This repo contains Jupyter Notebooks useful for several aspects of Blue Team wor
 ### Linux
 You need Jupyter Notebooks! On linux, run:
 ```
-$ sudo apt-get install jupyter
+$ pip3 install jupyter
 ```
 Clone and enter the directory:
 ```
