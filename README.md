@@ -37,7 +37,10 @@ Then, go to the directory of the notebook you want to run and start the Jupyter 
 ```
 $ jupyter notebook
 ```
-For developing notebooks, use the Jupyter `lab` command:
+For developing notebooks, install and use the Jupyter `lab` command:
+```
+$ pip3 install jupyterlab
+```
 ```
 $ jupyter lab
 ```
