@@ -33,7 +33,13 @@ Install the dependencies with `poetry`:
 ```
 $ poetry install
 ```
-Then, go to the directory of the notebook you want to run and start the Jupyter server:
+Then, start a poetry shell and .go to the directory of the notebook you want to run. Then, start the Jupyter server:
+```
+$ poetry shell
+```
+```
+$ cd [notebook-directory]
+```
 ```
 $ jupyter notebook
 ```
