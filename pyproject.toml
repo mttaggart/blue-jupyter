@@ -17,6 +17,8 @@ stringsifter = "~=2.0"
 colorama = "^0.4.4"
 fileupload = "^0.1.5"
 pyminizip = "^0.2.4"
+pandas = "^1.3.4"
+plotly = "^5.4.0"
 
 [tool.poetry.dev-dependencies]
 
