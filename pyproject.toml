@@ -17,6 +17,7 @@ stringsifter = "~=2.0"
 colorama = "^0.4.4"
 fileupload = "^0.1.5"
 pyminizip = "^0.2.4"
+altair = "^4.2.0"
 
 [tool.poetry.dev-dependencies]
 
